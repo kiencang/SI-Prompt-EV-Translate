@@ -1,7 +1,7 @@
 **Nhiệm vụ Chính**: Dựa trên vai trò và các nguyên tắc hoạt động đã được định nghĩa chi tiết trong System Instructions (SI) nâng cao của bạn, hãy thực hiện:
 
 1.  **Dịch thuật Anh-Việt**: Dịch **cực kỳ chính xác về ý nghĩa** và **tuyệt đối tự nhiên về văn phong tiếng Việt** toàn bộ **nội dung văn bản có thể đọc được** và các thành phần có ngữ nghĩa (như alt text cho ảnh) từ tài liệu PDF tiếng Anh được cung cấp. **TUÂN THỦ NGHIÊM NGẶT Ưu tiên #1 và Ưu tiên #2** trong SI, đặc biệt là yêu cầu **tái cấu trúc câu/đoạn một cách quyết liệt và sáng tạo**.
-2.  **Tái tạo sang HTML**: Trình bày bản dịch dưới dạng một **đoạn mã HTML thô hoàn chỉnh và ngữ nghĩa (semantic HTML)**. **Nỗ lực tối đa (best-effort)** để **bảo toàn layout và định dạng gốc** của PDF bằng HTML/CSS, nhưng **TUYỆT ĐỐI KHÔNG VI PHẠM Ưu tiên #3 (Tránh vỡ layout/Đảm bảo đọc được)** và luôn tuân thủ **Thứ tự Ưu tiên**, **Quy tắc Giải quyết Xung đột**, và các hướng dẫn xử lý yếu tố đặc biệt (ảnh, bảng, cột, công thức toán học, tài liệu tham khảo, header/footer, bố cục chung của tài liệu, accessibility) trong SI.
+2.  **Tái tạo sang HTML**: Trình bày bản dịch dưới dạng một **đoạn mã HTML thô hoàn chỉnh và ngữ nghĩa (semantic HTML)**. **Nỗ lực tối đa (best-effort)** để **bảo toàn layout và định dạng gốc** của PDF bằng HTML/CSS, nhưng **TUYỆT ĐỐI KHÔNG VI PHẠM Ưu tiên #3 (Tránh vỡ layout/Đảm bảo đọc được)** và luôn tuân thủ **Thứ tự Ưu tiên**, **Quy tắc Giải quyết Xung đột**, và các hướng dẫn xử lý yếu tố đặc biệt (ảnh, bảng, cột, công thức toán học, tài liệu tham khảo, header/footer, bố cục chung của bản dịch, accessibility) trong SI.
 
 **Đầu vào**: Tài liệu PDF tiếng Anh.
 **Đầu ra**: Một đoạn mã HTML thô hoàn chỉnh, **không chứa bất kỳ văn bản nào khác ngoài mã HTML đó** (không lời dẫn, không giải thích, không markdown bao quanh).
@@ -82,7 +82,7 @@
             *   **Mạnh dạn và sáng tạo:** Đừng ngần ngại phá vỡ hoàn toàn cấu trúc ngữ pháp Anh. Hãy tư duy như một người viết tiếng Việt thực thụ, tìm cách diễn đạt ý tưởng đó một cách tự nhiên và hiệu quả nhất trong tiếng Việt.
             *   **Ngữ điệu và dòng chảy:** Chú ý đến nhịp điệu, sự trôi chảy của câu văn tiếng Việt. Đôi khi việc tách một câu dài thành hai câu ngắn hoặc nối hai câu ngắn lại có thể giúp cải thiện điều này.
             *   **Lựa chọn từ đồng nghĩa/gần nghĩa:** Cân nhắc các từ đồng nghĩa hoặc gần nghĩa để tìm ra từ phù hợp nhất với ngữ cảnh và văn phong của tài liệu. Ví dụ: "understand" có thể dịch là "hiểu rõ", "nắm vững", "thông hiểu", "thấu suốt" tùy sắc thái.
-            *   **Tránh lặp từ/cấu trúc:** Nếu một cấu trúc câu tiếng Anh lặp lại nhiều lần, hãy cố gắng đa dạng hóa cách diễn đạt trong tiếng Việt.
+            *   **Tránh lặp từ/cấu trúc:** Nếu một cấu trúc câu tiếng Anh lặp lại nhiều lần, hãy cố gắng đa dạng hóa cách diễn đạt trong tiếng Việt. Các từ/cụm từ thông thường có thể đa dạng hóa cách dịch, nhưng các từ/cụm từ chuyên ngành (thuật ngữ) cần cách dịch thống nhất.
             *   **Kiểm tra lại sau khi dịch:** Luôn đọc lại bản dịch tiếng Việt một cách độc lập để đảm bảo nó thực sự tự nhiên, dễ hiểu và không còn "dấu vết" của câu gốc tiếng Anh.
 
 4.  **Xử lý Layout, Định dạng & Cấu trúc HTML (NHẮC LẠI ƯU TIÊN KỸ THUẬT):**
@@ -96,7 +96,7 @@
     *   Đảm bảo **HTML ngữ nghĩa** (semantic HTML) và tuân thủ **accessibility cơ bản** (cấu trúc heading, alt text, table headers).
 	*   **Tinh chỉnh Typography (Tùy chọn):** Trong khối `<style>`, hãy cân nhắc thêm các thuộc tính xử lý ngắt trang/ngắt cột cơ bản cho thẻ `<p>` (ví dụ: `orphans: 2; widows: 2;` hoặc `3`) để đảm bảo các đoạn văn không bị đứt gãy mồ côi/góa phụ khi người dùng in tài liệu hoặc xem trên các thiết bị có kích thước màn hình đặc thù, tăng tối đa tính chuyên nghiệp cho bản dịch.
 	
-5.  **Xử lý Biểu thức và Công thức Toán học**: Đảm bảo **TUÂN THỦ CHÍNH XÁC** hướng dẫn nêu trong SI.
+5.  **Xử lý Biểu thức và Công thức Toán học**: Đảm bảo **TUÂN THỦ TUYỆT ĐỐI CHÍNH XÁC** hướng dẫn nêu trong SI.
 
 6.  **Xử lý Tài liệu Tham khảo (References/Bibliography)**: **TUÂN THỦ NGHIÊM NGẶT** các quy tắc trong SI: **KHÔNG dịch** tên tác giả, tiêu đề (bài báo, sách, tạp chí), nhà xuất bản, thông tin xuất bản, DOI, URL. **Chỉ dịch** các ghi chú/bình luận do tác giả gốc viết thêm (nếu có). **Bảo toàn định dạng gốc** (đậm, nghiêng, cấu trúc list) và **đảm bảo DOI/URL là link hoạt động**.
 
