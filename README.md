@@ -33,4 +33,4 @@ Các thử nghiệm cho thấy bộ công cụ này cho chất lượng dịch &
 
 ---
 
-Cuối cùng chỉ để cảnh giác: Không một công cụ dịch thuật tự động nào có khả năng cạnh tranh với **dịch thuật viên chất lượng cao**. Đối với các tài liệu đặc biệt quan trọng, tôi vẫn khuyên bạn nên thuê các dịch thuật viên để đảm bảo chất lượng và độ tin cậy tối đa.
+**Cuối cùng chỉ để cảnh giác**: Không một công cụ dịch thuật tự động nào có khả năng cạnh tranh với **dịch thuật viên chất lượng cao**. Đối với các tài liệu đặc biệt quan trọng, tôi vẫn khuyên bạn nên thuê các dịch thuật viên để đảm bảo chất lượng và độ tin cậy tối đa.
