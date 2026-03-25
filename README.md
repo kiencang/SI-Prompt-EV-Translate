@@ -65,6 +65,7 @@ Copy/Past danh sách mà bạn có được ở trên. Lưu SI lại.
 --
 
 Lưu ý 1: Lúc này SI sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
+
 Lưu ý 2: Cách này thường chỉ tốt hơn khi tài liệu cần dịch có độ dài cao và phức tạp.
 
 ---
