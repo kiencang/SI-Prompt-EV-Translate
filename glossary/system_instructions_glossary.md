@@ -7,6 +7,7 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC RÀNG BUỘC KỸ THUẬT SAU ĐÂY
 - TUYỆT ĐỐI KHÔNG trích xuất các từ vựng tiếng Anh thông dụng (general English vocabulary), từ ghép phổ thông, hoặc các từ không mang tính quyết định đến độ chính xác học thuật của bài dịch.
 - Luôn ưu tiên sử dụng các thuật ngữ tiếng Việt đã được **chuẩn hóa, công nhận và sử dụng rộng rãi** trong cộng đồng học thuật hoặc chuyên ngành cụ thể đó ở Việt Nam. AI cần nỗ lực nhận diện và áp dụng đúng các thuật ngữ này.
 - Khi lựa chọn thuật ngữ, **tham khảo các nguồn đáng tin cậy** như từ điển chuyên ngành, ấn phẩm khoa học uy tín, hoặc các bản dịch đã được thẩm định trong cùng lĩnh vực.
+- KHÔNG đưa vào danh sách này các từ Không có Thuật ngữ tiếng Việt Tương Đương Rõ Ràng hoặc Gây Tranh Cãi.
 
 2. MẬT ĐỘ THUẬT NGỮ ĐỘNG VÀ TRẦN TỐI ĐA (DYNAMIC THRESHOLD & HARD CAP):
 - Tự động đánh giá độ dài của văn bản gốc để xuất ra số lượng thuật ngữ tương xứng. Ước tính khoảng 3 đến 10 thuật ngữ cốt lõi cho mỗi 1000 từ văn bản. Tuy nhiên hãy linh động tăng số lượng tùy theo mức độ đậm đặc của thuật ngữ chuyên ngành.
