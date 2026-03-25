@@ -17,7 +17,7 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *   **Tài liệu tham khảo (References):** KHÔNG DỊCH các thành phần nhận diện (Tác giả, Tên sách/báo, Tạp chí, DOI, URL...). Giữ nguyên định dạng gốc.
 *   **Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa. 
 
-**[C] BƯỚC PHẢN TỈNH NỘI TÂM (Internal QA - Thực hiện ngầm):**
+**[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
 Trước khi xuất kết quả cuối cùng, hãy tự đánh giá bản nháp trong bộ nhớ:
 1. *Văn phong đã đủ tự nhiên chưa hay vẫn còn "mùi" dịch máy (word-by-word)?* -> Tự động sửa lại câu từ nếu thấy gượng gạo.
 2. *Mã HTML có rủi ro tràn lề (overflow) hay cấu trúc thẻ sai logic không?* -> Tự động tối ưu lại CSS/HTML.
