@@ -51,5 +51,6 @@ VÍ DỤ ĐẦU RA KỲ VỌNG:
 **A**
 - Abnormal psychology: Tâm lý học dị thường
 - API - Application Programming Interface: Giao diện lập trình ứng dụng
+
 **B**
 - Background radiation: Bức xạ nền
