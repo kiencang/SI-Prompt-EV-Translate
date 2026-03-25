@@ -1,5 +1,5 @@
 **LỆNH THỰC THI CHÍNH:** 
-Dựa trên vai trò và toàn bộ luật lệ đã được nạp trong **System Instructions (SI)**, hãy tiếp nhận tài liệu đầu vào và thực hiện:
+Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System Instructions (SI)**, hãy tiếp nhận tài liệu đầu vào và thực hiện:
 1. Dịch thuật toàn bộ nội dung sang tiếng Việt.
 2. Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh.
 
