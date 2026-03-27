@@ -28,7 +28,7 @@ Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhi
 
 ### 1. Cấu hình Model
 * **Model:** Chọn model tiên tiến nhất (khuyến nghị: `Gemini 3.1 Pro Preview` hoặc các bản `Preview` mới nhất).
-* **System Instructions:** Copy toàn bộ nội dung SI của công cụ này và dán vào khung **System instructions** (ngay dưới phần chọn model).
+* **System Instructions:** Copy toàn bộ nội dung SI của công cụ này (`system_instructions.md`) và dán vào khung **System instructions** (ngay dưới phần chọn model).
 * **Tham số kỹ thuật:**
     * `Temperature`: Điều chỉnh xuống mức **0.3** (thay vì mặc định là 1.0). 
     * *Lưu ý:* Mức nhiệt độ thấp giúp thắt chặt tính logic, tránh dịch quá đà, đảm bảo văn phong khoa học nghiêm túc.
