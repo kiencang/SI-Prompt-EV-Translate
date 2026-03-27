@@ -32,6 +32,13 @@ Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhi
 * **Tham số kỹ thuật:**
     * `Temperature`: Điều chỉnh xuống mức **0.3** (thay vì mặc định là 1.0). 
     * *Lưu ý:* Mức nhiệt độ thấp giúp thắt chặt tính logic, tránh dịch quá đà, đảm bảo văn phong khoa học nghiêm túc.
+ 
+Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
+
+![Nhập vào thông tin của SI](images/luu-SI.png)
+
+![Chọn model AI và nhập vào thông số Temperature](images/chon-model-temperature.png)
+
 
 ### 2. Thao tác dịch
 1. Copy **Prompt** vào khung chat.
