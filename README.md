@@ -73,6 +73,8 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
     * *Lời khuyên:* Bạn phải lưu nội dung này thành file `.html` (ví dụ `bandich.html`) để xem đầy đủ định dạng qua trình duyệt (ưu tiên Google Chrome).
 * **Khả năng bảo toàn:** Công cụ hỗ trợ giữ định dạng rất tốt nhưng không thể hoàn hảo 100% đối với mọi loại bố cục PDF phức tạp. Ảnh dạng sơ đồ biểu đồ không quá phức tạp thường được tái tạo lại tương đối tốt, riêng các ảnh dạng ảnh chụp (như ảnh chụp bằng điện thoại, máy ảnh) trong file PDF sẽ không được tái tạo trong bản dịch.
 
+--
+
 Đoạn HTML sẽ luôn bắt đầu bằng: 
 
 ```
@@ -86,6 +88,8 @@ và kết thúc bằng:
 </body>
 </html>
 ```
+
+Khi copy kết quả phản hồi từ AI rồi lưu lại, bạn cần xóa các thông tin dư thừa (nếu nó có) nằm phía phía trên ```<!DOCTYPE html>``` và xóa thông tin dư thừa (nếu có) phía dưới ```</html>```
 
 ---
 
