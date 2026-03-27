@@ -89,7 +89,9 @@ và kết thúc bằng:
 </html>
 ```
 
-Khi copy kết quả phản hồi từ AI rồi lưu lại, bạn cần xóa các thông tin dư thừa (nếu nó có) nằm phía phía trên ```<!DOCTYPE html>``` và xóa thông tin dư thừa (nếu có) phía dưới ```</html>```
+Khi copy kết quả phản hồi từ AI rồi lưu lại, bạn cần xóa các thông tin dư thừa (nếu nó có) nằm phía phía trên ```<!DOCTYPE html>``` và xóa thông tin dư thừa (nếu có) phía dưới ```</html>``` để kết quả bản dịch được sạch sẽ.
+
+Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI phân tích, suy ngẫm trước khi đưa ra câu trả lời chính thức.
 
 ---
 
