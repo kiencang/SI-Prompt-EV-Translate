@@ -57,11 +57,11 @@ Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhi
 
 Phần này là tùy chọn. Không bắt buộc sử dụng.
 
-Mặc định SI/prompt chính là đủ để xử lý tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì trước khi dịch hãy sử dụng thêm SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
+Mặc định SI/prompt chính là đủ để xử lý rất tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì trước khi dịch hãy sử dụng thêm SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
 Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong prompt của phần glossary.
 
-Sau đó copy danh sách đó đưa vào dưới mục 4.  **Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)** trong SI chính.
+Sau đó copy danh sách kết quả đưa vào dưới mục 4.  **Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)** trong SI chính.
 
 Đặt tên nó như sau:
 
@@ -89,7 +89,7 @@ Ví dụ mẫu:
 
 Lưu ý 1: Lúc này SI sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
-Lưu ý 2: Cách này thường chỉ tốt hơn khi tài liệu cần dịch có độ dài cao và phức tạp.
+Lưu ý 2: Cách này thường chỉ tốt hơn mặc định khi tài liệu cần dịch có độ dài cao và phức tạp. Ngoài ra, tuy có triển vọng cải thiện chất lượng dịch, điều này không chắc chắn luôn đúng. Cách tốt nhất là bạn thử kiểm tra trên một số tài liệu và so sánh để có kết luận cụ thể.
 
 ---
 
