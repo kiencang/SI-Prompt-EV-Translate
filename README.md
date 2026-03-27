@@ -35,10 +35,13 @@ Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhi
  
 Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
 
-![Nhập vào thông tin của SI](images/luu-SI.png)
+<p align="center">
+  <img src="images/luu-SI.png" alt="Nhập vào thông tin của SI">
+</p>
 
-![Chọn model AI và nhập vào thông số Temperature](images/chon-model-temperature.png)
-
+<p align="center">
+  <img src="images/chon-model-temperature.png" alt="Chọn model AI và nhập vào thông số Temperature">
+</p>
 
 ### 2. Thao tác dịch
 1. Copy **Prompt** vào khung chat.
