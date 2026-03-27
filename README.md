@@ -59,7 +59,7 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
   <br><em>Nhập Prompt và chọn file cần dịch</em>
 </p>
 
-### 3. Độ dài của file PDF
+### 3. Lưu ý về Độ dài của file PDF
 1. Trong mỗi lần gửi dữ liệu dịch nên giới hạn độ dài file PDF khoảng **10 trang** (có thể điều chỉnh con số với tài liệu thực tế). Lý do là vì mặc dù ngữ cành đầu vào cho phép đến hàng triệu Token, ngữ cảnh đầu ra (bản dịch) chịu giới hạn khoảng 64 ngàn Token.
 2. Đối với tài liệu PDF rất dài (ví dụ dịch sách), cần phải chia tách nó thành các file nhỏ hơn để dịch từng file nhỏ (vì giới hạn Token đầu ra), và nên chia tách sao cho nó không bị 'lửng lơ' (ngắt giữa chừng một khối văn bản cần dịch). Có rất nhiều công cụ trực tuyến chất lượng cao giúp tách file PDF, ví dụ: https://smallpdf.com/vi/split-pdf
 
