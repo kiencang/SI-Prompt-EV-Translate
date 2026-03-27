@@ -48,7 +48,7 @@ Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhi
 
 ---
 
-## 🚀 Nâng cao với danh sách thuật ngữ chuyên ngành
+## 🎨 Nâng cao với danh sách thuật ngữ chuyên ngành
 
 Phần này là tùy chọn. Không bắt buộc sử dụng.
 
