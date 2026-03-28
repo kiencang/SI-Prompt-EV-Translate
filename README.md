@@ -95,13 +95,26 @@ Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI p
 
 ---
 
-## 🎨 Nâng cao với danh sách thuật ngữ chuyên ngành
+# 🔄 SI và prompt bản tinh chỉnh (refine)
+
+Trong thư mục `refine` chứa các SI & prompt được tinh chỉnh cho những tài liệu không quá phức tạp.
+
+Về lý thuyết, SI & prompt tốt là các hướng dẫn phù hợp (đúng & đủ) với tài liệu, không nên chứa các chỉ thị thừa thãi. SI & prompt tiêu chuẩn rất mạnh xử lý các tài liệu khoa học phức tạp, nhưng với các tài liệu đơn giản hơn nó sẽ dư thừa ít nhiều, bạn có thể cân nhắc sử dụng phiên bản refine.
+
+Hiện trong thư mục đang có những bản tinh chỉnh sau:
+
+- `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI. Đây có thể là phiên bản tinh chỉnh bạn sẽ hay dùng nhất.
+- `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ thì nên dùng `x_svg` thay vì `x_math`.
+
+---
+
+## 🎨 Nâng cao SI với danh sách thuật ngữ chuyên ngành
 
 Phần này là tùy chọn. Không bắt buộc sử dụng.
 
 Mặc định SI/prompt chính là đủ để xử lý rất tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì trước khi dịch hãy sử dụng thêm SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
-Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong prompt của phần glossary.
+Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong prompt của phần glossary. Và khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
 Sau đó copy danh sách kết quả đưa vào dưới mục 4.  **Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)** trong SI chính.
 
@@ -132,19 +145,6 @@ Ví dụ mẫu:
 Lưu ý 1: Lúc này SI sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
 Lưu ý 2: Cách này thường chỉ tốt hơn mặc định khi tài liệu cần dịch có độ dài cao và phức tạp. Ngoài ra, tuy có triển vọng cải thiện chất lượng dịch, điều này không chắc chắn luôn đúng. Cách tốt nhất là bạn thử kiểm tra trên một số tài liệu và so sánh để có kết luận cụ thể.
-
----
-
-# 🔄 SI và prompt bản tinh chỉnh (refine)
-
-Trong thư mục `refine` chứa các SI & prompt được tinh chỉnh cho những tài liệu không quá phức tạp.
-
-Về lý thuyết, SI & prompt tốt là các hướng dẫn phù hợp (đúng & đủ) với tài liệu, không nên chứa các chỉ thị thừa thãi. SI & prompt tiêu chuẩn rất mạnh xử lý các tài liệu khoa học phức tạp, nhưng với các tài liệu đơn giản hơn nó sẽ dư thừa ít nhiều, bạn có thể cân nhắc sử dụng phiên bản refine.
-
-Hiện trong thư mục đang có những bản tinh chỉnh sau:
-
-- `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI. Đây có thể là phiên bản tinh chỉnh bạn sẽ hay dùng nhất.
-- `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ thì nên dùng `x_svg` thay vì `x_math`.
 
 ---
 
