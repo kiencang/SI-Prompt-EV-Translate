@@ -135,6 +135,19 @@ Lưu ý 2: Cách này thường chỉ tốt hơn mặc định khi tài liệu c
 
 ---
 
+# 🔄 SI và prompt bản tinh chỉnh (refine)
+
+Trong thư mục `refine` chứa các SI & prompt được tinh chỉnh cho những tài liệu không quá phức tạp.
+
+Về lý thuyết, SI & prompt tốt là các hướng dẫn phù hợp (đúng & đủ) với tài liệu, không nên chứa các chỉ thị thừa thãi. SI & prompt tiêu chuẩn rất mạnh xử lý các tài liệu khoa học phức tạp, nhưng với các tài liệu đơn giản hơn nó sẽ dư thừa ít nhiều, bạn có thể cân nhắc sử dụng phiên bản refine.
+
+Hiện trong thư mục đang có những bản tinh chỉnh sau:
+
+- `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này. Đây có khả năng là phiên bản tinh chỉnh bạn sẽ hay dùng nhất.
+- `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ thì nên dùng `x_svg` thay vì `x_math`.
+
+---
+
 # ⚡ SI và prompt bản mini
 
 Nhìn chung trong hầu hết trường hợp tôi khuyến khích bạn sử dụng SI/prompt tiêu chuẩn, nó là cái `system_instructions.md` và `prompt.md`, bởi vì nó cho **chất lượng bản dịch cao hơn đáng kể**.
