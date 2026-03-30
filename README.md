@@ -125,7 +125,7 @@ Nó gồm 2 cặp SI/prompt sau:
 - `phase_1`: Để chuyển file PDF thành HTML. Nên để Temperature 0.3
 - `phase_2`: Tập trung vào nhiệm vụ dịch. Nên để Temperature 0.5
 
-Tùy chọn này có khả năng cải thiện chất lượng dịch, vì nó giúp AI tránh bị quá tải chỉ thị (dù đã dùng model tiên tiến nhất) khi dùng bản tiêu chuẩn. Tuy nhiên nó sẽ khiến bạn mất thời gian hơn một chút và cả tốn token hơn để tạo ra bản dịch hoàn chỉnh.
+Tùy chọn này có khả năng cải thiện chất lượng dịch, vì nó giúp AI tránh bị quá tải chỉ thị (dù đã dùng model tiên tiến nhất) khi dùng bản tiêu chuẩn. Tuy nhiên nó sẽ khiến bạn mất thời gian hơn một chút và cả tốn token hơn (ít nhất là gấp đôi so với bản tiêu chuẩn) để tạo ra bản dịch hoàn chỉnh.
 
 ---
 
