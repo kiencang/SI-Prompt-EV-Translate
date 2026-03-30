@@ -101,7 +101,20 @@ Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI p
 
 ---
 
-# 🔄 SI và prompt bản tinh chỉnh (refine)
+# 🔄 SI và prompt bản chia phase theo giai đoạn | Tùy chọn 1
+
+Trong thư mục `pdf2html` chứa các SI & prompt được tinh chỉnh theo từng bước xử lý chứ không gộp chung như SI/prompt tiêu chuẩn.
+
+Nó gồm 2 cặp SI/prompt sau:
+
+- `phase_1`: Để chuyển file PDF thành HTML.
+- `phase_2`: Tập trung vào nhiệm vụ dịch.
+
+Tùy chọn này có khả năng cải thiện chất lượng dịch, vì nó giúp AI tránh bị quá tải chỉ thị (dù đã dùng model tiên tiến nhất) khi dùng bản tiêu chuẩn.
+
+---
+
+# 🔄 SI và prompt bản tinh chỉnh (refine) | Tùy chọn 2
 
 Trong thư mục `refine` chứa các SI & prompt được tinh chỉnh cho những tài liệu không quá phức tạp.
 
@@ -114,7 +127,7 @@ Hiện trong thư mục đang có những bản tinh chỉnh sau:
 
 ---
 
-## 🎨 Nâng cao SI với danh sách thuật ngữ chuyên ngành
+## 🔄 Nâng cao SI với danh sách thuật ngữ chuyên ngành | Tùy chọn 3
 
 Phần này là tùy chọn. Không bắt buộc sử dụng.
 
