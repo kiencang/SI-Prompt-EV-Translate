@@ -101,6 +101,21 @@ Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI p
 
 ---
 
+Người dùng ngoài việc dùng bản tiêu chuẩn, bạn có thể sử dụng thêm một trong 3 tùy chọn dưới đây khi dịch tài liệu PDF từ Anh sang Việt.
+
+Mỗi tùy chọn có ưu điểm riêng, và cách tiếp cận khác nhau để cải thiện chất lượng dịch:
+
+- Tùy chọn 1: chia pha dịch thành các giai đoạn nhỏ hơn để tránh quá tải AI.
+- Tùy chọn 2: giảm tải SI/prompt đơn giản hơn tùy theo loại tài liệu.
+- Tùy chọn 3: thêm danh sách từ chuyên ngành vào để cải thiện chất lượng dịch.
+
+Một số nhận xét:
+
+- Tùy chọn 1 có khả năng đem lại cải thiện chất lượng ổn định nhất, rất phù hợp với tài liệu phức tạp. 
+- Tùy chọn 2 sẽ phù hợp với tài liệu có cấu trúc đơn giản.
+
+---
+
 # 🔄 SI và prompt bản chia phase theo giai đoạn | Tùy chọn 1
 
 Trong thư mục `pdf2html` chứa các SI & prompt được tinh chỉnh theo từng bước xử lý chứ không gộp chung như SI/prompt tiêu chuẩn.
@@ -110,7 +125,7 @@ Nó gồm 2 cặp SI/prompt sau:
 - `phase_1`: Để chuyển file PDF thành HTML.
 - `phase_2`: Tập trung vào nhiệm vụ dịch.
 
-Tùy chọn này có khả năng cải thiện chất lượng dịch, vì nó giúp AI tránh bị quá tải chỉ thị (dù đã dùng model tiên tiến nhất) khi dùng bản tiêu chuẩn.
+Tùy chọn này có khả năng cải thiện chất lượng dịch, vì nó giúp AI tránh bị quá tải chỉ thị (dù đã dùng model tiên tiến nhất) khi dùng bản tiêu chuẩn. Tuy nhiên nó sẽ khiến bạn mất thời gian hơn một chút và cả tốn token hơn để tạo ra bản dịch hoàn chỉnh.
 
 ---
 
