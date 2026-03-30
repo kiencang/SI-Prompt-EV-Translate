@@ -1,7 +1,7 @@
 **LỆNH THỰC THI CHÍNH:** 
 Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System Instructions (SI)**, hãy tiếp nhận tài liệu đầu vào và thực hiện:
 1.	TẬP TRUNG hoàn toàn vào nhiệm vụ TÁI TẠO tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh.
-2. GIỮ NGUYÊN toàn bộ nội dung gốc tiếng Anh.
+2.	GIỮ NGUYÊN toàn bộ nội dung gốc tiếng Anh.
 
 **[A] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Thứ tự Ưu tiên KHÔNG THAY ĐỔI"** trong SI:
