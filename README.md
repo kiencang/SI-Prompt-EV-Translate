@@ -116,37 +116,28 @@ Hiện trong thư mục đang có những bản tinh chỉnh sau:
 
 Phần này là tùy chọn. Không bắt buộc sử dụng.
 
-Mặc định SI/prompt chính là đủ để xử lý rất tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì trước khi dịch hãy sử dụng thêm SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
+Mặc định SI/prompt tiêu chuẩn là đủ để xử lý rất tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
-Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong prompt của phần glossary. Và khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
+Nó có 2 phần:
 
-Sau đó copy danh sách kết quả đưa vào dưới mục 4.  **Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)** trong SI chính.
+- prompt_glossary & system_instructions_glossary: dùng để trích xuất cách dịch từ chuyên ngành.
+- prompt_new & system_instructions_new: là bộ SI/Prompt mới thay thế bộ tiêu chuẩn. Bạn sẽ copy danh sách từ chuyên ngành và đưa vào prompt_new
 
-Đặt tên nó như sau:
+Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong `prompt_glossary`. Và khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
-4.1 **Bảng thuật ngữ chuyên ngành**: BẮT BUỘC (Strictly Enforced) khi gặp các từ tiếng Anh nằm trong bảng thuật ngữ dưới đây, bạn PHẢI sử dụng chính xác từ tiếng Việt tương ứng ở bên phải. Tuyệt đối không sử dụng từ đồng nghĩa khác.
-
-Copy/Paste danh sách mà bạn có được ở trên. Lưu SI lại.
-
-Ví dụ mẫu:
+Sau đó copy danh sách kết quả đưa vào `prompt_new`:
 
 ```
-4.1 **Bảng thuật ngữ chuyên ngành**: BẮT BUỘC (Strictly Enforced) khi gặp các từ tiếng Anh nằm trong bảng thuật ngữ dưới đây, bạn PHẢI sử dụng chính xác từ tiếng Việt tương ứng ở bên phải. Tuyệt đối không sử dụng từ đồng nghĩa khác.
-**A**
-- Absolute value: Giá trị tuyệt đối
-- Addition principle: Nguyên lý cộng
-
-**B**
-- Basis step: Bước cơ sở
-- Biconditional statement: Mệnh đề hai chiều
-- Bijection: Song ánh
-- Bijective function: Hàm song ánh
-- Binomial theorem: Định lý nhị thức
+<glossary>
+[DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT TỪ BƯỚC 1 VÀO ĐÂY]
+</glossary>
 ```
+
+system_instructions_new không phải chỉnh sửa gì, cứ thế dùng luôn.
 
 --
 
-Lưu ý 1: Lúc này SI sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
+Lưu ý 1: Lúc này Prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
 Lưu ý 2: Cách này thường chỉ tốt hơn mặc định khi tài liệu cần dịch có độ dài cao và phức tạp. Ngoài ra, tuy có triển vọng cải thiện chất lượng dịch, điều này không chắc chắn luôn đúng. Cách tốt nhất là bạn thử kiểm tra trên một số tài liệu và so sánh để có kết luận cụ thể.
 
