@@ -4,6 +4,8 @@
 
 Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý các văn bản học thuật có độ phức tạp cao, đảm bảo độ chính xác về thuật ngữ và bảo toàn định dạng tốt nhất có thể.
 
+**Lưu ý cần phải đọc**: Dịch máy chỉ nên áp dụng khi bạn không thể thuê dịch thuật viên chất lượng cao, đặc biệt thận trọng khi áp dụng dịch máy với các tài liệu quan trọng.
+
 ---
 
 ## 📚 Xem thử chất lượng
