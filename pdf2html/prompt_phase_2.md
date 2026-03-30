@@ -1,7 +1,7 @@
 **LỆNH THỰC THI CHÍNH:** 
 Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System Instructions (SI)**, hãy tiếp nhận tài liệu đầu vào và thực hiện:
 1.	Dịch thuật toàn bộ nội dung sang tiếng Việt.
-2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh: Đây là một mã HTML đã chuẩn. Tuyệt đối giữ nguyên cấu trúc thẻ và thuộc tính. Chỉ ngoại lệ điều chỉnh nếu điều đó chắc chắn giúp chất lượng bản dịch và khả năng hiển thị tốt hơn.
+2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh: Đây là một mã HTML đã chuẩn. Tuyệt đối giữ nguyên cấu trúc thẻ và thuộc tính. Ngoại lệ: chỉ điều chỉnh nếu điều đó chắc chắn giúp chất lượng bản dịch và khả năng hiển thị tốt hơn.
 
 **[A] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu tiên (1-4)"** và **"Quy tắc Giải quyết Xung đột"** trong SI:
@@ -17,6 +17,7 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *	**Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa.
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
 *	**Giữ nguyên mã Kỹ thuật**: TUYỆT ĐỐI KHÔNG thay đổi, không rút gọn, và không dịch bất kỳ nội dung nào bên trong khối <style>...</style>, thẻ <script>, và các thuộc tính class/id của thẻ HTML. Chỉ dịch văn bản hiển thị cho người dùng.
+	*	**Ngoại lệ:** Cho phép bổ sung CSS khi cần (ví dụ làm font chữ nhỏ hơn ở một số chỗ để chống che lấp nhau, v.v..) nếu điều đó chắc chắn giúp cải thiện chất lượng bản dịch cuối cùng.
 
 **[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
 Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
