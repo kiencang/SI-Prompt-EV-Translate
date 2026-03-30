@@ -26,12 +26,11 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
 
 **[D] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (INTERNAL QA - BẮT BUỘC):**
-Trước khi xuất kết quả cuối cùng, bạn PHẢI tự kiểm tra nội bộ bằng cách in suy nghĩ vào thẻ `<thinking>`:
+Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
 1. Đối soát rà quét xem các từ trong `<glossary>` (Mục A) đã được áp dụng đúng và đủ vào bản dịch chưa? Có bị sai lỗi viết hoa/thường ở đầu câu hoặc tiêu đề không?
 2. Văn phong đã đủ tự nhiên, trôi chảy chưa hay vẫn còn "mùi" dịch máy (word-by-word)? -> Lên phương án tái cấu trúc lại những câu gượng gạo.
 3. Mã HTML có rủi ro tràn lề (overflow) hay cấu trúc thẻ sai logic không?
 
 **[E] ĐỊNH DẠNG ĐẦU RA (STRICT OUTPUT BOUNDARY):**
-1. Mở thẻ `<thinking>` để thực hiện phân tích của Bước [D].
-2. Ngay sau khi đóng thẻ `</thinking>`, chỉ trả về **MÃ HTML THÔ** của toàn bộ trang.
-3. Mã HTML bắt đầu chính xác bằng `<!DOCTYPE html>` và kết thúc bằng `</html>`.
+*	Chỉ trả về MÃ HTML THÔ.
+*	Bắt đầu chính xác bằng `<!DOCTYPE html>` và kết thúc bằng `</html>`.
