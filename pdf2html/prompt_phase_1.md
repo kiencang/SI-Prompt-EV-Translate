@@ -21,7 +21,7 @@ Hãy gọi lại và áp dụng tuyệt đối **"Thứ tự Ưu tiên KHÔNG TH
 Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
 1.	*Mã HTML có rủi ro tràn lề (overflow)?*
 2.	*Các văn bản khi hiển thị có che lấp nhau?* 
-3. *Cấu trúc thẻ sai logic không?* 
+3.	*Cấu trúc thẻ sai logic không?* 
 Nếu có vấn đề hãy Tự động tối ưu lại CSS/HTML.
 
 **[D] ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (STRICT OUTPUT BOUNDARY):**
