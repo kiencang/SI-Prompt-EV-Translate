@@ -188,7 +188,7 @@ Toàn bộ SI/prompt nằm trong thư mục `sadhuPDF`. Gồm các file sau:
 
 - `phase_1`: Để chuyển file PDF thành HTML. Khi xử lý nên để Temperature 0.3
 - `phase_2`: Tập trung vào nhiệm vụ trích xuất từ chuyên ngành. Khi xử lý nên để Temperature 0.3
-- `phase_3`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để Temperature 0.5
+- `phase_3`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để Temperature 0.5 / Với phase 3, bạn nhớ copy danh sách từ chuyên ngành có được từ phase 2 vào prompt trong phase 3; và sử dụng file html có được từ phase 1 làm đầu vào cho phase 3. Nếu bạn thấy hướng dẫn này thật phức tạp thì đúng rồi đấy!
 
 Nó khá giống với Tùy chọn 1, chỉ là bổ sung một phase để dùng làm nhiệm vụ trích xuất từ chuyên ngành (thay vì phải làm toàn bộ khi dịch).
 
