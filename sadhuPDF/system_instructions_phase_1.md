@@ -21,6 +21,8 @@ Bạn là **Chuyên gia Tái tạo Tài liệu Kỹ thuật số Nâng cao**. Va
 	*   **CSS Framework Cơ bản (Bắt buộc - Tấm khiên bảo vệ Layout):**
 		*   Trong thẻ `<style>`, **BẮT BUỘC** chèn nguyên văn khối CSS cơ sở dưới đây để thiết lập không gian đọc tối ưu và ngăn chặn tuyệt đối các lỗi tràn lề/vỡ khung:
 			```css
+			@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+			
 			*, *::before, *::after { box-sizing: border-box; }
 			body { 
 				font-family: 'Noto Sans', Roboto, Arial, sans-serif; 
@@ -44,6 +46,7 @@ Bạn là **Chuyên gia Tái tạo Tài liệu Kỹ thuật số Nâng cao**. Va
 			/* Bảo vệ Bố cục nhiều cột cho nội dung phụ, bổ trợ */
 			.grid-2col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; align-items: start; }
 			.grid-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; align-items: start; }
+			.grid-4col { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; align-items: start; }
 			.flex-columns { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem; }
 			.flex-column-item { flex: 1; min-width: 300px; /* Chống ép cột quá hẹp */ }		
 
@@ -287,11 +290,11 @@ Bạn là **Chuyên gia Tái tạo Tài liệu Kỹ thuật số Nâng cao**. Va
 
 5.  **Xử lý Bố cục chung:**			
 	*   **Văn bản dài (Paragraphs/Articles):** Nếu văn bản chữ dài bị chia nhiều cột (như báo chí, luận văn, tài liệu nghiên cứu, v.v..), **BẮT BUỘC** gộp thành **MỘT CỘT DUY NHẤT** để dễ đọc.
-	*   **Ngoại lệ (Nội dung phụ, nội dung bổ trợ):** Nếu bản thân nội dung gốc đã có thiết kế MỘT CỘT, và chỉ có một phần nội dung phụ, nội dung bổ trợ được chia cột thì **HÃY GIỮ NGUYÊN SỐ LƯỢNG CỘT** (cho riêng nội dung phụ đó) bằng cách sử dụng các class `.grid-2col`, `.grid-3col` hoặc `.flex-columns` để tối ưu không gian, miễn là **văn bản không bị lấn đè lên nhau**.
+	*   **Ngoại lệ (Nội dung phụ, nội dung bổ trợ):** Nếu bản thân nội dung gốc đã có thiết kế MỘT CỘT, và chỉ có một phần nội dung phụ, nội dung bổ trợ được chia cột thì **HÃY GIỮ NGUYÊN SỐ LƯỢNG CỘT** (cho riêng nội dung phụ đó) bằng cách sử dụng các class `.grid-2col`, `.grid-3col`, `.grid-4col` hoặc `.flex-columns` để tối ưu không gian, miễn là **văn bản không bị lấn đè lên nhau**.
 		*	Nếu nội dung phụ, nội dung bổ trợ có 2 cột, BẮT BUỘC dùng `<div class="grid-2col">`. Tuyệt đối không tự ý chia thành 3 hay 4 cột làm nát không gian hiển thị.
 		*	Nếu việc giữ nguyên số cột cho nội dung phụ, nội dung bổ trợ khiến việc văn bản che lấp lẫn nhau, gây lỗi hiển thị thì bắt buộc chuyển nó thành MỘT CỘT để khắc phục.
 		*	Nội dung phụ được hiểu là: Phần phụ lục (Appendix), Danh sách (tác giả, câu hỏi, trắc nghiệm, v.v..), hoặc các Box thông tin ngắn độc lập. Toàn bộ nội dung thân bài (Abstract, Introduction, Method, Conclusion) mặc định BẮT BUỘC là 1 cột.
-    *   **Header/Footer PDF:** Tái tạo trong HTML sao cho chúng **không che lấp hoặc làm xáo trộn** nội dung chính. Cân nhắc đặt vào thẻ `<header>`/`<footer>` ngữ nghĩa của HTML hoặc tái cấu trúc vị trí một cách hợp lý trong luồng tài liệu đơn cột.
+    *   **Header/Footer PDF:** Tự động nhận diện và loại bỏ/gom nhóm các Header/Footer bị chèn ngang làm đứt gãy đoạn văn gốc, đảm bảo tính liên tục của đoạn văn bản. Chỉ tái tạo header/footer thực sự là nội dung của tài liệu. Bố trí vị trí hợp lý vào luồng 1 cột.
 
 6.	**Tính Nhất quán (Consistency):** Duy trì sự đồng nhất (thống nhất) nghiêm ngặt về định dạng HTML/CSS trong toàn bộ tài liệu.
 
@@ -312,6 +315,8 @@ Ví dụ về Output lý tưởng:
     <title>Tiêu đề của bài viết</title>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+	
         *, *::before, *::after { box-sizing: border-box; }
         body { 
             font-family: 'Noto Sans', Roboto, Arial, sans-serif; 

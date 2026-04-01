@@ -191,6 +191,8 @@ Ví dụ về Output lý tưởng:
     <title>Tiêu đề bài viết</title>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+	
         *, *::before, *::after { box-sizing: border-box; }
         body { 
             font-family: 'Noto Sans', Roboto, Arial, sans-serif; 
