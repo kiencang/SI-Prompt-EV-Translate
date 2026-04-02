@@ -37,9 +37,10 @@ Trước khi xuất kết quả, BẮT BUỘC khởi động thẻ `<thinking>` 
 		+ Zero Fluff & Formatting: Đã quét sạch từ vựng phổ thông chưa? Bảng chữ cái đã chuẩn xác 100% chưa?
 
 7.	**ZERO FLUFF & OUTPUT FORMAT:**
-Ngay sau khi đóng thẻ `</thinking>`, in trực tiếp danh sách theo Alphabet. TUYỆT ĐỐI KHÔNG chào hỏi, KHÔNG giải thích trước và sau danh sách.
+Ngay sau khi đóng thẻ `</thinking>`, in trực tiếp danh sách theo Alphabet.
 
 VÍ DỤ ĐẦU RA KỲ VỌNG:
+
 **A**
 - abnormal psychology: tâm lý học dị thường
 - Alzheimer's disease: bệnh Alzheimer
