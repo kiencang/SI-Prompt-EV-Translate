@@ -1,6 +1,8 @@
 **[YÊU CẦU THỰC THI - GLOSSARY EXTRACTION]**
 
-Dưới đây là tài liệu cần xử lý. Hãy phân tích nội dung và trích xuất Bảng thuật ngữ chuyên ngành Anh - Việt, tuân thủ tuyệt đối toàn bộ quy định trong System Instruction.
+Đầu vào là file tài liệu cần xử lý. Hãy phân tích nội dung và trích xuất Bảng thuật ngữ chuyên ngành Anh - Việt, tuân thủ tuyệt đối toàn bộ quy định trong System Instruction.
+
+**Xác định Chuyên ngành (Domain Profiling):** BẮT BUỘC tự động quét nhanh tài liệu để phân tích và chốt "Chuyên ngành lớn" (VD: Y khoa) và "Chuyên ngành hẹp" (VD: Tim mạch can thiệp). Hãy sử dụng chuyên ngành hẹp được nội suy này làm hệ quy chiếu tuyệt đối để dịch thuật ngữ.
 
 **TRÌNH TỰ THỰC THI BẮT BUỘC CỦA BẠN:**
 1. Khởi tạo ngay thẻ `<thinking>`.
