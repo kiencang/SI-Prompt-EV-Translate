@@ -103,21 +103,18 @@ Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI p
 
 # Các tùy chọn
 
-Người dùng ngoài việc dùng bản tiêu chuẩn, bạn có thể sử dụng thêm một trong 3 tùy chọn dưới đây khi dịch tài liệu PDF từ Anh sang Việt.
+Người dùng ngoài việc dùng bản tiêu chuẩn, bạn có thể sử dụng thêm một trong các tùy chọn dưới đây khi dịch tài liệu PDF từ Anh sang Việt.
 
 Mỗi tùy chọn có ưu điểm riêng, và cách tiếp cận khác nhau để cải thiện chất lượng dịch:
 
 - Tùy chọn 1: chia pha dịch thành các giai đoạn nhỏ hơn để tránh quá tải AI.
 - Tùy chọn 2: giảm tải SI/prompt về dạng đơn giản hơn tùy theo loại tài liệu.
-- Tùy chọn 3: thêm danh sách từ chuyên ngành vào để cải thiện chất lượng dịch.
-- Tùy chọn 4: kết hợp sức mạnh, ưu thế của Tùy chọn 1 với Tùy chọn 3.
 
 Một số nhận xét:
 
-- Tùy chọn 1 có khả năng đem lại cải thiện chất lượng ổn định nhất, rất phù hợp với tài liệu phức tạp. 
-- Tùy chọn 2 sẽ phù hợp với tài liệu có cấu trúc đơn giản.
-- Tùy chọn 3 đem lại cải thiện không quá rõ ràng, về lý thuyết thì nó sẽ chắc chắn cải thiện, còn thực tế có thể không được như mong muốn. Nguyên nhân có thể là vì chỉ thị tiêu chuẩn vốn đã hơi quá tải, và giờ thêm cả hướng dẫn về bảng từ chuyên ngành sẽ khiến nó càng thêm nặng. Tuy nhiên khi tích hợp vào Tùy chọn 4, ưu điểm của nó sẽ rõ ràng hơn, vì ở Tùy chọn 4 các chỉ thị đã được giảm tải nhờ việc chia phase.
-- Tùy chọn 4 đặc biệt phù hợp với các tài liệu có độ phức tạp rất cao. Nhưng là giải pháp tốn thời gian và công sức nhất. Trong sử dụng thực tiễn, hãy ưu tiên Tùy chọn 1, nó đủ tốt trong hầu hết trường hợp, chỉ xét đến Tùy chọn 4 nếu bạn có yêu cầu rất cao.
+- Tùy chọn 1 có khả năng đem lại cải thiện chất lượng ổn định nhất, rất phù hợp với tài liệu phức tạp.
+- Tùy chọn 2 sẽ phù hợp với tài liệu có cấu trúc đơn giản. Nó là cách nhanh gọn và tiết kiệm trong khi vẫn có hiệu quả cao khi cấu trúc tài liệu gốc không phức tạp.
+- Với mỗi Tùy chọn, bạn có lựa chọn thêm việc bổ sung danh sách từ chuyên ngành, điều này có thể rất có ích cho các tài liệu có nhiều thuật ngữ.
 
 --
 
