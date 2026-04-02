@@ -11,7 +11,7 @@ Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System
 
 *	Đây là danh sách quan trọng để bạn tham khảo cách dịch, tuy nhiên không cần tuân thủ tuyệt đối. Hãy sử dụng & điều chỉnh nó linh hoạt tùy theo theo bối cảnh của tài liệu gốc.
 *	Vẫn áp dụng các quy tắc trong phần *4. Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)* của SI.
-*	Mục đích cuối cùng là để bạn có được cách dịch từ khó & từ chuyên ngành trong tài liệu theo cách chất lượng nhất.  
+*	Mục đích cuối cùng là để bạn có được cách dịch từ khó & từ chuyên ngành trong tài liệu theo cách chất lượng nhất. 
 
 **[B] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu tiên (1-4)"** và **"Quy tắc Giải quyết Xung đột"** trong SI:
@@ -23,7 +23,6 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 **[C] CHECKLIST KỸ THUẬT QUAN TRỌNG:**
 *	**Cột & Layout:** Ép luồng văn bản chính về **1 CỘT DUY NHẤT**.
 *	**Bảng biểu:** BẮT BUỘC bọc mọi `<table>` bằng `<div class="table-wrapper">` (áp dụng CSS cơ sở trong SI) để chống tràn ngang.
-*	**Công thức Toán học:** Phải dùng cú pháp LaTeX `\(\)` và `\[\]`. BẮT BUỘC nhúng thẻ `<script>` MathJax vào `<head>`. (Giữ nguyên dấu chấm `.` thập phân bên trong block LaTeX).
 *	**Tài liệu tham khảo (References):** KHÔNG DỊCH các thành phần nhận diện (Tác giả, Tên sách/báo, Tạp chí, DOI, URL...). Giữ nguyên định dạng gốc.
 *	**Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa.
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.

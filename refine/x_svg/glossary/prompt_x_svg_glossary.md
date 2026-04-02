@@ -11,7 +11,7 @@ Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System
 
 *	Đây là danh sách quan trọng để bạn tham khảo cách dịch, tuy nhiên không cần tuân thủ tuyệt đối. Hãy sử dụng & điều chỉnh nó linh hoạt tùy theo theo bối cảnh của tài liệu gốc.
 *	Vẫn áp dụng các quy tắc trong phần *4. Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)* của SI.
-*	Mục đích cuối cùng là để bạn có được cách dịch từ khó & từ chuyên ngành trong tài liệu theo cách chất lượng nhất.  
+*	Mục đích cuối cùng là để bạn có được cách dịch từ khó & từ chuyên ngành trong tài liệu theo cách chất lượng nhất. .
 
 **[B] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu tiên (1-4)"** và **"Quy tắc Giải quyết Xung đột"** trong SI:
