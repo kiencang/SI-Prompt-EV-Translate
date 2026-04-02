@@ -124,12 +124,21 @@ Trong thư mục `pdf2html` chứa các SI & prompt được tinh chỉnh theo t
 
 Nó gồm 2 cặp SI/prompt sau:
 
-- `phase_1`: Để chuyển file PDF thành HTML. Lưu kết quả của phase 1 để làm đầu vào của phase 2. Khi xử lý nên để Temperature 0.3
-- `phase_2`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để Temperature 0.5
+- `phase_1`: Để chuyển file PDF thành HTML. Lưu kết quả của phase 1 để làm đầu vào của phase 2. Khi xử lý nên để **Temperature 0.3**
+- `phase_2`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để **Temperature 0.5**
 
 Tùy chọn này có khả năng cải thiện chất lượng dịch cao nhất so với các tùy chọn còn lại (nhất là với file PDF phức tạp), vì nó giúp AI tránh bị quá tải chỉ thị như khi dùng bản tiêu chuẩn (dù đã dùng model tiên tiến nhất). Tuy nhiên nó sẽ khiến bạn mất thời gian và cả tốn Token hơn (thường là gấp đôi so với bản tiêu chuẩn) để tạo ra bản dịch hoàn chỉnh.
 
 Ví dụ kết quả dịch bằng tùy chọn này: https://github.com/kiencang/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-vi-phase.pdf
+
+Tùy chọn này còn có thêm 2 biến thể:
+
+- Bổ sung glossary vào prompt (cho phase 2 khi dịch).
+- Bỏ bớt chuyển đổi svg (cho phase 1 khi chuyển đổi sang HTML).
+
+2 biến thể này có thể dùng đồng thời, hoặc dùng riêng. Các file tương ứng nằm trong thư mục tương ứng (`glossary` và `x_svg` trong thư mục tổng `pdf2html`.
+
+Về việc trích xuất các từ chuyên ngành tham khảo phần **Nâng cao thêm chất lượng dịch với danh sách từ chuyên ngành bổ sung vào prompt**.
 
 --
 
