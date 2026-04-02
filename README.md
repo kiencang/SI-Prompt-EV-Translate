@@ -151,50 +151,31 @@ Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có các
 
 --
 
-## 🔄 Nâng cao SI với danh sách thuật ngữ chuyên ngành | Tùy chọn 3
+## 🔄 Nâng cao SI với danh sách thuật ngữ chuyên ngành | Nâng cao khi cần
 
-Phần này là tùy chọn. Không bắt buộc sử dụng.
+Phần này là tùy ý. Không bắt buộc sử dụng.
 
 Mặc định SI/prompt tiêu chuẩn là đủ để xử lý rất tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
-Nó có 2 phần:
-
-- `prompt_glossary` & `system_instructions_glossary`: dùng để trích xuất cách dịch từ chuyên ngành.
-- `prompt_new` & `system_instructions_new`: là bộ SI/prompt mới thay thế bộ tiêu chuẩn. Bạn sẽ copy danh sách từ chuyên ngành và đưa vào `prompt_new`
+`prompt_glossary` & `system_instructions_glossary` dùng để trích xuất cách dịch từ chuyên ngành.
 
 Khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
-Sau đó copy danh sách kết quả đưa vào `prompt_new`:
+Sau đó copy danh sách kết quả đưa vào prompt có hậu tố `_glossary` trong mỗi tùy chọn trên:
 
 ```
 <glossary>
-[DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT TỪ BƯỚC 1 VÀO ĐÂY]
+[DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT TỪ BƯỚC trích xuất từ chuyên ngành VÀO ĐÂY]
 </glossary>
 ```
 
-`system_instructions_new` không phải chỉnh sửa gì, cứ thế dùng luôn.
+`system_instructions` không phải chỉnh sửa gì, cứ thế dùng luôn.
 
 --
 
 Lưu ý 1: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
 Lưu ý 2: Cách này thường chỉ tốt hơn mặc định khi tài liệu cần dịch có độ dài cao và phức tạp. Ngoài ra, tuy có triển vọng cải thiện chất lượng dịch, điều này không chắc chắn luôn đúng. Cách tốt nhất là bạn thử kiểm tra trên một số tài liệu và so sánh để có kết luận cụ thể.
-
---
-
-## 🔄 Quy trình phức tạp nhất | Tùy chọn 4
-
-Giải pháp này kết hợp 2 ưu thế chia phase (giai đoạn) của Tùy chọn 1 kết hợp với bảng thuật ngữ của Tùy chọn 3.
-
-Toàn bộ SI/prompt nằm trong thư mục `sadhuPDF`. Gồm các file sau:
-
-- `phase_1`: Để chuyển file PDF thành HTML. Khi xử lý nên để Temperature 0.3
-- `phase_2`: Tập trung vào nhiệm vụ trích xuất từ chuyên ngành. Khi xử lý nên để Temperature 0.3
-- `phase_3`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để Temperature 0.5 / Với phase 3, bạn nhớ copy danh sách từ chuyên ngành có được từ phase 2 vào prompt trong phase 3; và sử dụng file html có được từ phase 1 làm đầu vào cho phase 3. Nếu bạn thấy hướng dẫn này thật phức tạp thì đúng rồi đấy!
-
-Nó khá giống với Tùy chọn 1, chỉ là bổ sung một phase để dùng làm nhiệm vụ trích xuất từ chuyên ngành (thay vì phải làm toàn bộ khi dịch).
-
-Tùy chọn 4 mất thời gian và tốn Token nhất, và cũng chỉ nên áp dụng với các tài liệu đặc biệt phức tạp, còn nhìn chung Tùy chọn 1 đã đủ đảm bảo trong phần lớn trường hợp rồi.
 
 ---
 
