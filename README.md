@@ -23,7 +23,7 @@ Việc kết hợp bộ SI/prompt này với **Gemini AI Studio** (https://aistu
 
 * **Tối ưu hóa hệ sinh thái:** Công cụ được tinh chỉnh và kiểm tra kỹ lưỡng trên model Gemini.
 * **Tiết kiệm chi phí:** Hạn mức miễn phí rộng rãi, phù hợp cho nhu cầu dịch thuật cá nhân mà hầu như không phát sinh phí. Đăng ký nhanh chóng, không gặp rào cản.
-* **Tùy chỉnh chuyên sâu:** Cung cấp nhiều thiết lập nâng cao và dễ dàng tùy chỉnh qua giao diện dễ hiểu.
+* **Tùy chỉnh chuyên sâu:** Cung cấp nhiều thiết lập nâng cao và dễ dàng tùy chỉnh qua giao diện dễ hiểu. Ví dụ điều chỉnh Temperature / Mức độ sáng tạo (nên để từ 0.3 đến 0.5 thay vì mặc định 1 / Sẽ được hướng dẫn kỹ khi thao tác cụ thể), hay chỉnh Thinking level / Mức độ suy luận trước khi đưa ra câu trả lời (với suy luận nên để là `Hight` như mặc định, vì dịch rất phức tạp).
 * **Chất lượng cao:** Gemini hiện là một trong những AI có khả năng xử lý ngữ cảnh và dịch thuật tốt nhất.
 * **Đủ sức mạnh:** Bản AI Studio có sức mạnh để dịch văn bản dài, mà nếu bạn sử dụng các AI giao diện người dùng phổ thông khác thì thường không đủ (bản dịch thường bị cắt ngắn hoặc chất lượng thấp do không hiểu rõ hướng dẫn hoặc thiếu năng lực).
 
