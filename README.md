@@ -12,8 +12,8 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 Ví dụ về chất lượng dịch của bộ SI/prompt này (bản tiêu chuẩn), bạn có thể xem khả năng của nó khi dịch khoảng 10 trang mở đầu trong cuốn **Book Of Proofs** của **Richard Hammack**:
 
-- Bản tiếng Anh: https://github.com/kiencang/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-en.pdf
-- Bản dịch tiếng Việt: https://github.com/kiencang/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-vi.pdf
+- Bản tiếng Anh: https://github.com/kiencang/examples/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-en.pdf
+- Bản dịch tiếng Việt: https://github.com/kiencang/examples/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-vi.pdf
 
 ---
 
@@ -191,7 +191,7 @@ Nó gồm 2 cặp SI/prompt sau:
 
 Tùy chọn này có khả năng cải thiện chất lượng dịch lên đáng kể (nhất là với file PDF cấu trúc phức tạp), vì nó giúp AI tránh bị quá tải chỉ thị như khi dùng bản tiêu chuẩn (dù đã dùng model tiên tiến nhất). Tuy nhiên nó sẽ khiến bạn mất thời gian và cả tốn Token hơn (thường là gấp đôi so với bản tiêu chuẩn) để tạo ra bản dịch hoàn chỉnh.
 
-Ví dụ kết quả dịch bằng tùy chọn này: https://github.com/kiencang/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-vi-phase.pdf
+Ví dụ kết quả dịch bằng tùy chọn này: https://github.com/kiencang/examples/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-vi-phase.pdf
 
 Tùy chọn này còn có thêm 2 biến thể:
 
