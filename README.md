@@ -15,8 +15,8 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 ## Về bản tiêu chuẩn:
 
 - Bản tiêu chuẩn: Nằm ngay ngoài thư mục chính, gồm `prompt.md` & `system_instructions.md`
-- Bản tiêu chuẩn có một phiên bản khác là đưa thêm từ chuyên ngành vào prompt, lúc đó prompt mới cần dùng sẽ là `prompt_glossary.md`
-- Để có được danh sách từ chuyên ngành thì dùng SI/prompt nằm trong thư mục `glossary_ext`.
+- Bản tiêu chuẩn có một phiên bản khác là đưa thêm từ chuyên ngành vào prompt (để cải thiện chất lượng dịch), lúc đó prompt mới cần dùng sẽ là `prompt_glossary.md`
+- Để trích xuất được danh sách từ chuyên ngành thì dùng SI/prompt nằm trong thư mục `glossary_ext` (là `prompt_glossary_ext` và `system_instructions_glossary_ext`).
 
 Bản tiêu chuẩn là các nhanh để bạn dịch file PDF, khi đã làm quen một chút với nó bạn nên sử dụng các Tùy chọn khác như `refine` (tinh chỉnh SI/prompt) hoặc `pdf2html` (chia giai đoạn dịch) để hiệu quả dịch được cao hơn. Các hướng dẫn chi tiết sẽ có ở các phần sau của hướng dẫn này.
 
@@ -133,7 +133,7 @@ Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI p
 
 Người dùng ngoài việc dùng bản tiêu chuẩn, bạn có thể sử dụng thêm một trong các tùy chọn dưới đây khi dịch tài liệu PDF từ Anh sang Việt.
 
-Các bản tùy chỉnh khi được dùng phù hợp thường cho chất lượng dịch cao hơn đáng kể so với bản tiêu chuẩn, rất khuyên bạn tìm hiểu để dùng.
+Các bản tùy chỉnh *khi được dùng phù hợp* thường *cho chất lượng dịch cao hơn đáng kể* so với bản tiêu chuẩn, rất khuyên bạn tìm hiểu để dùng.
 
 Mỗi tùy chọn có ưu điểm riêng, và cách tiếp cận khác nhau để cải thiện chất lượng dịch:
 
