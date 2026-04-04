@@ -4,6 +4,19 @@
 
 Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý các văn bản học thuật có độ phức tạp cao, đảm bảo độ chính xác về thuật ngữ và bảo toàn định dạng tốt nhất có thể.
 
+--
+
+Dịch giả Cưu-ma-la-thập chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
+
+> Dịch giống như đút cho người khác đồ ăn đã nhai rồi, điều đó vừa làm đồ ăn mất hết mùi vị và còn gây cảm giác kinh tởm nữa!
+
+Điều này nếu suy nghĩ kỹ thì có 2 hướng:
+
+- Người đọc, nếu có khả năng, tốt nhất nên học ngoại ngữ để đỡ phải 'ăn cơm nhai lại'.
+- Người/công cụ dịch, khi làm nhiệm vụ này thì phải cố gắng tối đa để 'đồ ăn còn vị' & giảm thiểu 'cảm giác kinh tởm'.
+
+Tôi sẽ cố gắng để công cụ này làm được nhiệm vụ đó!
+
 **Lưu ý cần phải đọc**: 
 
 - Dịch máy chỉ nên áp dụng khi bạn không thể thuê dịch thuật viên chất lượng cao, đặc biệt thận trọng khi áp dụng dịch máy với các tài liệu quan trọng.
