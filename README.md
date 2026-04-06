@@ -6,7 +6,9 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 --
 
-App trên AI Studio có thể dùng được ngay: https://ai.studio/apps/191e5a9f-94ef-4987-9344-615c1a2301dd?fullscreenApplet=true
+App trên AI Studio có thể dùng được ngay: https://ai.studio/apps/bb5c61b7-e110-49aa-933c-04c4ccd18e16?fullscreenApplet=true
+
+Hoặc bạn có thể sử dụng biện pháp thủ công như hướng dẫn bên dưới.
 
 --
 
