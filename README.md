@@ -6,9 +6,9 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 --
 
-App trên AI Studio có thể dùng được ngay: https://ai.studio/apps/bb5c61b7-e110-49aa-933c-04c4ccd18e16?fullscreenApplet=true
+App trên AI Studio có thể dùng để dịch file PDF được ngay: https://ai.studio/apps/bb5c61b7-e110-49aa-933c-04c4ccd18e16?fullscreenApplet=true
 
-Hoặc bạn có thể sử dụng biện pháp thủ công như hướng dẫn bên dưới.
+Hoặc bạn có thể sử dụng biện pháp thủ công như hướng dẫn bên dưới. Vẫn nên đọc nội dung hướng dẫn bên dưới để bạn hiểu hơn cách dùng kể cả khi bạn dùng link ở app trên.
 
 --
 
