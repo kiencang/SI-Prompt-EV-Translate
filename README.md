@@ -179,7 +179,22 @@ Về lý thuyết, SI & prompt tốt là các hướng dẫn phù hợp (đúng 
 Hiện trong thư mục `refine` đang có những bản tinh chỉnh sau:
 
 - `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI.
+
+Để dễ hình dung các biểu đồ toán học trông như thế nào thì dưới đây là ví dụ:
+
+<p align="center">
+  <img src="images/svg-math.png" alt="Biểu đồ toán học có khả năng dựng bằng SVG">
+   <br><em>Biểu đồ toán học có khả năng dựng bằng SVG</em>
+</p>
+
 - `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. PS: Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ toán học thì nên dùng `x_svg` thay vì `x_math`.
+
+Để hình dung các công thức toán học trông như thế nào thì dưới đây là ví dụ:
+
+<p align="center">
+  <img src="images/math.png" alt="Công thức toán học">
+   <br><em>Công thức toán học</em>
+</p>
 
 Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có cách trình bày đơn giản, không cần cả công thức toán lẫn biểu đồ toán học phức tạp thì `x_math` là lựa chọn rất phù hợp. Tôi khuyến khích bạn dùng thay vì dùng bản tiêu chuẩn. 
 
