@@ -290,6 +290,16 @@ Ví dụ kết quả đầu ra khi chạy SI/prompt trích xuất từ chuyên n
 - working poverty: nghèo đói ở người có việc làm
 ```
 
+### ⚠️ Tại sao danh sách từ chuyên ngành không phải lúc nào cũng cho kết quả tốt hơn?
+
+Một ưu điểm chắc chắn của danh sách từ chuyên ngành là nó làm cho bản dịch của bạn có *tính thống nhất cao*. Sẽ hiếm khi có chuyện một thuật ngữ ở đầu văn bản được dịch là A, nhưng ở cuối văn bản lại dịch là B. Nó cũng đặc biệt hữu ích khi bạn dịch các văn bản dài như sách chẳng hạn, nó giảm tối thiểu việc các chương sách dịch cùng một thuật ngữ thành các từ khác nhau mà có thể tạo ra hiểu lầm cho bạn là những khái niệm không giống nhau.
+
+Nhưng danh sách từ chuyên ngành dựng bằng AI có nhược điểm có hữu: Nó vẫn là phiên bản được tái tạo bằng AI. Nghĩa là nếu một văn bản không quá phức tạp (không quá dài, không quá nhiều từ khó) thì việc dịch thẳng trực tiếp chưa chắc đã cho kết quả yếu hơn một phiên bản cần thêm trích xuất từ chuyên ngành. Nguyên nhân là vì lúc đó độ phức tạp của văn bản gốc được giải quyết ngay lần xử lý đầu tiên, và việc trích xuất bằng AI từ chuyên ngành ở lần đầu không đem lại lợi thế nào đáng kể, và đôi khi còn yếu hơn vì khi dịch AI buộc phải dựa vào danh sách 'cứng' thay vì linh động hơn khi dịch một lần và có toàn văn bối cảnh của bản gốc.
+
+Nói chung danh sách từ chuyên ngành sẽ phát huy hiệu quả chắc chắn hơn nếu nó có bước can thiệp của con người. Tuy nhiên đây là điều không mấy dễ dàng, hoặc thực tế hơn là hầu như không thể. Bạn cần AI dịch là vì bạn không có khả năng đọc bản gốc, các từ chuyên ngành thì lại càng không! Do vậy, chính bạn sẽ không có khả năng chỉnh sửa danh sách này!
+
+Tất cả những phần trên chỉ muốn nhắc người sử dụng công cụ rằng hãy thận trọng và không đặt quá nhiều kỳ vọng vào danh sách từ chuyên ngành trên các văn bản không quá phức tạp.
+
 --
 
 ## 🔄 SI và prompt bản chia phase theo từng giai đoạn | Tùy chọn 2
