@@ -6,6 +6,10 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 --
 
+App trên AI Studio có thể dùng được ngay: https://ai.studio/apps/191e5a9f-94ef-4987-9344-615c1a2301dd?fullscreenApplet=true
+
+--
+
 Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
 
 > Dịch giống như đút cho người khác đồ ăn đã nhai rồi, điều đó vừa làm đồ ăn mất hết mùi vị và còn gây cảm giác kinh tởm nữa!
