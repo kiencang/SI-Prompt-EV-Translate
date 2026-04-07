@@ -12,7 +12,7 @@ Có thể dùng để dịch file PDF được ngay: https://ai.studio/apps/bb5c
 
 Hoặc bạn có thể sử dụng biện pháp thủ công như hướng dẫn bên dưới. **Lưu ý:** Vẫn nên đọc nội dung hướng dẫn bên dưới để bạn hiểu hơn cách dùng, ưu điểm cũng như hạn chế của ứng dụng, kể cả khi bạn không dùng biện pháp thủ công.
 
---
+---
 
 Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
 
