@@ -336,7 +336,7 @@ Trong thư mục `pdf2html` chứa các SI & prompt được tinh chỉnh theo t
 Nó gồm 2 cặp SI/prompt sau:
 
 - `phase_1`: Để chuyển file PDF thành HTML. Lưu kết quả của phase 1 để làm đầu vào của phase 2. Khi xử lý nên để **Temperature 0.3**
-- `phase_2`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để **Temperature 0.5**
+- `phase_2`: Tập trung vào nhiệm vụ dịch. Khi xử lý nên để **Temperature 0.3 đến 0.5**, tùy theo nhu cầu (0.3 sẽ dịch bám sát tài liệu gốc hơn, 0.5 sẽ dịch 'bay bổng' hơn).
 
 Tùy chọn này có khả năng cải thiện chất lượng dịch lên đáng kể (nhất là với file PDF cấu trúc phức tạp), vì nó giúp AI tránh bị quá tải chỉ thị như khi dùng bản tiêu chuẩn (dù đã dùng model tiên tiến nhất). Tuy nhiên nó sẽ khiến bạn mất thời gian và cả tốn Token hơn (thường là gấp đôi so với bản tiêu chuẩn) để tạo ra bản dịch hoàn chỉnh.
 
