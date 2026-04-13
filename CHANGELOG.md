@@ -9,6 +9,13 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.37] - 2026-04-14
+
+### Fixed
+- Đưa thẻ xml vào để nhóm riêng các chỉ thị liên quan.
+- Loại bỏ việc tab và space lần lộn. Thống nhất về space. 4 space thụt lề tiêu chuẩn.
+- Sửa một lỗi trùng lặp trong prompt do trước đây sơ ý.
+
 ## [v1.3.36] - 2026-04-09
 
 ### Fixed
