@@ -9,6 +9,13 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.38] - 2026-04-14
+
+### Fixed
+- Đổi tên file trong `refine` để tránh hiểu nhầm ý nghĩa.
+- Xóa các biến thể không cần thiết cho `refine` và `pdf2html`. (Về lý thuyết các biến thể có thể cần, nhưng thực tế rất hiếm khi dùng, chỉ giữ lại ví dụ về glossary cho file master).
+- Chỉnh hướng dẫn sử dụng để phù hợp hơn.
+
 ## [v1.3.37] - 2026-04-14
 
 ### Fixed
