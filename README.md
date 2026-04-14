@@ -48,7 +48,7 @@ Tôi sẽ cố gắng để công cụ này làm được nhiệm vụ đó!
 
 - Bản tiêu chuẩn: Nằm ngay ngoài thư mục chính, gồm `prompt.md` & `system_instructions.md`
 - Bản tiêu chuẩn có một phiên bản khác là đưa thêm từ chuyên ngành vào prompt (để cải thiện chất lượng dịch), lúc đó prompt mới cần dùng sẽ là `prompt_glossary.md`
-- Để trích xuất được danh sách từ chuyên ngành thì dùng SI/prompt nằm trong thư mục `glossary_ext` (là `prompt_glossary_ext` và `system_instructions_glossary_ext`).
+- Để trích xuất được danh sách từ chuyên ngành thì dùng SI/prompt nằm trong thư mục `glossary_ext` (là `prompt_glossary_ext` và `system_instructions_glossary_ext`). Tuy nhiên từ chuyên ngành nếu không có sự biên tập từ con người trước khi đưa vào thì thường không đem lại cải thiện (cái này sẽ giải thích kỹ hơn bên dưới).
 
 Bản tiêu chuẩn là các nhanh để bạn dịch file PDF, khi đã làm quen một chút với nó bạn nên sử dụng các Tùy chọn khác như `refine` (tinh chỉnh SI/prompt) hoặc `pdf2html` (chia giai đoạn dịch) để hiệu quả dịch được cao hơn. Các hướng dẫn chi tiết sẽ có ở các phần sau của hướng dẫn này.
 
