@@ -176,7 +176,6 @@ Một số nhận xét:
 
 - Tùy chọn 1 sẽ phù hợp với tài liệu có cấu trúc đơn giản, chẳng hạn như tài liệu các ngành khoa học xã hội.
 - Tùy chọn 2 có khả năng đem lại cải thiện chất lượng ổn định nhất, rất phù hợp với nội dung cấu trúc phức tạp, đặc biệt là tài liệu chứa nhiều công thức toán hoặc/và biểu đồ toán.
-- Với mỗi Tùy chọn, bạn có lựa chọn thêm việc bổ sung danh sách từ chuyên ngành, điều này có thể rất có ích cho các tài liệu có nhiều thuật ngữ.
 
 --
 
